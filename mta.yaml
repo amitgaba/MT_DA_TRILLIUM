@@ -1,0 +1,32 @@
+ID: MT_DA_TRILLIUM
+_schema-version: '2.0'
+description: Trillium HANA Integration
+version: 0.0.1
+
+modules:
+ - name: DB
+   type: hdb
+   path: DB
+   requires:
+    - name: hdi_DB
+      properties:
+        TARGET_CONTAINER: '~{hdi-container-name}'      
+    - name: ecc-synonym-grantor-service
+    - name: crm-synonym-grantor-service    
+
+resources:
+ - name: hdi_DB
+   parameters:
+      config:
+         schema: MT_DA_TRILLIUM
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
+ - name: ecc-synonym-grantor-service
+   type: org.cloudfoundry.existing-service
+   parameters:
+     service-name: ecc-synonym-grantor-service
+ - name: crm-synonym-grantor-service
+   type: org.cloudfoundry.existing-service
+   parameters:
+     service-name: crm-synonym-grantor-service   

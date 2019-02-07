@@ -1,0 +1,40 @@
+{
+        "DA.TRILLIUM::BUT000_CRM": {
+        "target": {
+            "schema.configure": "crm-synonym-grantor-service/schema",
+            "object": "BUT000"
+        }
+    },
+        "DA.TRILLIUM::BUT050_CRM": {
+        "target": {
+            "schema.configure": "crm-synonym-grantor-service/schema",
+            "object": "BUT050"
+        }
+    },
+
+        "DA.TRILLIUM::ADRC_CRM": {
+        "target": {
+            "schema.configure": "crm-synonym-grantor-service/schema",
+            "object": "ADRC"
+        }
+    },
+        "DA.TRILLIUM::ADR2_CRM": {
+        "target": {
+            "schema.configure": "crm-synonym-grantor-service/schema",
+            "object": "ADR2"
+        }
+    },
+        "DA.TRILLIUM::ADR6_CRM": {
+        "target": {
+            "schema.configure": "crm-synonym-grantor-service/schema",
+            "object": "ADR6"
+        }
+    },
+        "DA.TRILLIUM::TRILLIUM_ADRIDX_CRM": {
+        "target": {
+            "schema.configure": "crm-synonym-grantor-service/schema",
+            "object": "/TRILLIUM/ADRIDX"
+        }
+    }    
+    
+}

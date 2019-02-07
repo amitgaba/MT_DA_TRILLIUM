@@ -1,0 +1,104 @@
+{
+    "crm-synonym-grantor-service": {
+        "object_owner": {
+            "object_privileges": [
+                {
+                    "name": "BUT000",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+           "object_privileges": [
+                {
+                    "name": "BUT050",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+           "object_privileges": [
+                {
+                    "name": "ADRC",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+           "object_privileges": [
+                {
+                    "name": "ADR2",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+           "object_privileges": [
+                {
+                    "name": "ADR6",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+           "object_privileges": [
+                {
+                    "name": "/TRILLIUM/ADRIDX",
+                    "privileges_with_grant_option": [
+                        "SELECT"
+                    ]
+                }            
+            ]             
+        },
+        "application_user": {
+            "object_privileges": [
+                                {
+                    "name": "BUT000",
+                    "privileges": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+            "object_privileges": [
+                                {
+                    "name": "BUT050",
+                    "privileges": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+            "object_privileges": [
+                                {
+                    "name": "ADRC",
+                    "privileges": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+            "object_privileges": [
+                                {
+                    "name": "ADR2",
+                    "privileges": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+            "object_privileges": [
+                                {
+                    "name": "ADR6",
+                    "privileges": [
+                        "SELECT"
+                    ]
+                }            
+            ],
+            "object_privileges": [
+                                {
+                    "name": "/TRILLIUM/ADRIDX",
+                    "privileges": [
+                        "SELECT"
+                    ]
+                }            
+            ]             
+        }
+    }
+}
